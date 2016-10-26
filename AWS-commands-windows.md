@@ -16,6 +16,7 @@ User Name: DLFUser#
 Password: QWnmzxop9
 ```
 (when explaining dashboard check for N.Virginia)
+
 3. Selecting Service
   - **Scroll** down to *AWS Services*
   - Under *Compute* section **click** *EC2* (screenshot, explain side bar)

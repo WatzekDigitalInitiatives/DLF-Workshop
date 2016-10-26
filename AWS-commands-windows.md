@@ -44,11 +44,11 @@ Password: QWnmzxop9
 
 ---
 
-#### Log into your computer
+#### Access your virtual computer
 
-1. **Click** on your name from the list
-2. Go to mobaXterm and **click** `New session`
-3. Go to AWS Console page and **copy** the `Public IP (xxx.xxx.xxx.xxx)` number under *Public IP* column of your instance row
+1. Run mobaXterm and **click** `New session`
+2. **Click** on your name from the list on AWS
+3. **Copy** the `Public IP (xx.xx.xxx.xxx)` number under *Public IP* column of your row (might have to scroll right to see it)
 4. Go to mobaXterm and **paste** this IP in the `Remote host` box
 5. **Select** the check-box `Specify username` and **type** `ubuntu` in the box
 6. **Click** `Advanced SSH settings` tab

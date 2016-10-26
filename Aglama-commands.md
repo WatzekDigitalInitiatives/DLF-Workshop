@@ -31,33 +31,60 @@ agalma load --id JGI_NEMVEC
 ```
 
 **Check load IDs**
-`agalma diagnostics list`
+
+```
+agalma diagnostics list
+```
 
 **Export load IDs**
-`export LOAD_IDS=$("6, 7, 8, 9, 10")`
+
+```
+export LOAD_IDS=$("6, 7, 8, 9, 10")
+```
 
 ## Phylogenetic Pipeline
 
 **Homologize**
-`agalma homologize --id DLF_Phylogeny $LOAD_IDS`
+
+```
+agalma homologize --id DLF_Phylogeny $LOAD_IDS
+```
 
 **Multalign**
-`agalma multalign --id DLF_Phylogeny`
+
+```
+agalma multalign --id DLF_Phylogeny
+```
 
 **Genetree**
-`agalma genetree --id DLF_Phylogeny`
+
+```
+agalma genetree --id DLF_Phylogeny
+```
 
 **Treeprune**
-`agalma treeprune --id DLF_Phylogeny`
+
+```
+agalma treeprune --id DLF_Phylogeny
+```
 
 **Multalign**
-`agalma multalign --id DLF_Phylogeny`
+
+```
+agalma multalign --id DLF_Phylogeny
+```
 
 **Supermatrix**
-`agalma supermatrix --id DLF_Phylogeny`
+
+```
+agalma supermatrix --id DLF_Phylogeny
+```
 
 **Speciestree**
-`agalma speciestree --id DLF_Phylogeny --raxml_flags="-o Nematostella_vectensis"`
+
+```
+agalma speciestree --id DLF_Phylogeny --raxml_flags="-o Nematostella_vectensis"
+```
 
 ## Generate Reports
 

@@ -2,7 +2,7 @@
 
 #### Download Key
 
-1. Download the key from [here]() which will be use in future
+1. Download the key from [here](https://drive.google.com/file/d/0B-249YJc4OukQVljMW1JN21YTzA/view?usp=sharing) which will be use in future
 2. Move it on your Desktop folder (Don't worry about it right now)
 
 ---

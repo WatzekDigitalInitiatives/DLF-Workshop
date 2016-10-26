@@ -2,7 +2,7 @@
 
 #### Download Key
 
-1. Download the key from [here]() which we will use in future.
+1. Download the key from [here]() which will be use in future
 2. Move it on your Desktop folder (Don't worry about it right now)
 
 ---

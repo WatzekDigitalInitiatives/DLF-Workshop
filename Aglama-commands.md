@@ -1,7 +1,16 @@
+## Navigate the computer
+
+```
+ls
+cd agalma
+ls
+cd data
+ls
+```
+
 ## Catalog
 
 ```
-cd data
 agalma catalog insert --id SRX288285 --paths SRX288285_1.fq SRX288285_2.fq --species "Agalma elegans" --ncbi_id 316166
 agalma catalog insert --id SRX288432 --paths SRX288432_1.fq SRX288432_2.fq --species "Craseoa lathetica" --ncbi_id 316205
 agalma catalog insert --id SRX288431 --paths SRX288431_1.fq SRX288431_2.fq --species "Physalia physalis" --ncbi_id 168775

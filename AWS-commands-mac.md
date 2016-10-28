@@ -43,19 +43,21 @@ Password: Qwnmzxop9
 #### Download Key
 
 1. Download the key from [here](https://drive.google.com/file/d/0B-249YJc4OukQVljMW1JN21YTzA/view?usp=sharing) which will be use in future
+  - Note: Don't change the download destination, let it be in your `Downloads` folder
 
 ---
 
 #### Access your virtual computer
 
-1. Run mobaXterm (software you downloaded earlier) and **click** `New session`
-2. **Click** on your name from the list on AWS
-3. **Copy** the `Public IP (xx.xx.xxx.xxx)` number under *Public IP* column of your row (might have to scroll right to see it)
-4. Go to mobaXterm and **paste** this IP in the `Remote host` box
-5. **Select** the check-box `Specify username` and **type** `ubuntu` in the box
-6. **Click** `Advanced SSH settings` tab
-7. **Select** check-box `Use private key`
-8. **Click** the tiny *paper picture* and find and select the key downloaded earlier in the tutorial, the file should be named `dlf-workshop-key.pem` in *Downloads* folder
-9. Click OK to connect to connect to your computer
+1. Open spotlight by typing `cmd + space`
+2. Type `terminal` and hit **return** key to open it
+3. Change directory to Downloads folder by typing `cd Downloads` followed by a **return** on the terminal window
+4. Give permission to your key to access your EC2-Instance by typing `chmod 400 dlf-workshop-key.pem` followed by a **return** on the terminal window
+4. **Copy** the `Public IP (xx.xx.xxx.xxx)` number under *Public IP* column of your row (might have to scroll right to see it)
+5. Go to terminal and access your EC2-Instance by typing `ssh -i dlf-workshop-key.pem ubuntu@xx.xx.xxx.xxx.`
+  - Replace the `xx.xx.xxx.xxx` with your Public IP (use `cmd+v` to paste it)
+  - Hit a **return** to connect
+  - If it prompts you `Are you sure you want to continue connecting (yes/no)?` type `yes` and hit **return**
+  - You should now be connected to your EC2-Instance
 
 #### Now go to [Agalma Commands page](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/Aglama-commands.md)

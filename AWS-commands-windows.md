@@ -42,7 +42,13 @@ Password: Qwnmzxop9
 
 #### Download Key
 
-1. Download the key from [here](https://drive.google.com/file/d/0B-249YJc4OukQVljMW1JN21YTzA/view?usp=sharing) which will be use in future
+1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="_blank">here (http://tinyurl.com/dlf-ec2-key)</a>
+
+---
+
+#### Download mobaXterm (tool to access command line)
+
+1. Download mobaXterm from <a href="http://tinyurl.com/dlf-mobaxterm" target="_blank">here (tinyurl.com/dlf-mobaxterm)</a>
 
 ---
 

@@ -42,8 +42,8 @@ Password: Qwnmzxop9
 
 #### Download Key
 
-1. Download the key from [here](https://drive.google.com/file/d/0B-249YJc4OukQVljMW1JN21YTzA/view?usp=sharing) which will be use in future
-  - Note: Don't change the download destination, let it be in your `Downloads` folder
+1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="_blank">here (http://tinyurl.com/dlf-ec2-key)</a>
+  - Note: Don't change the download destination, make sure it is in your `Downloads` folder
 
 ---
 

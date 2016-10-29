@@ -4,7 +4,8 @@
 
 #### Make a virtual computer (EC2 Instance)
 
-1. Go to Watzek Digital Initiatives' [AWS account](https://watzekdi.signin.aws.amazon.com/console)
+1. Go to Watzek Digital Initiatives' <a href="https://watzekdi.signin.aws.amazon.com/console" target="_blank">AWS account</a> (https://watzekdi.signin.aws.amazon.com/console)
+
 2. Login with the username and the password on your table. They should look like:
 ```
 User Name: DLFUser#
@@ -42,7 +43,7 @@ Password: Qwnmzxop9
 
 #### Download Key
 
-1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="_blank">here (http://tinyurl.com/dlf-ec2-key)</a>
+1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="_blank">here</a> (http://tinyurl.com/dlf-ec2-key)
   - Note: Don't change the download destination, make sure it is in your `Downloads` folder
 
 ---

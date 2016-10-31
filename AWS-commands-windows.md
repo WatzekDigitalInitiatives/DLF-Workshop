@@ -21,8 +21,10 @@ Password: Qwnmzxop9
   with N.Virginia as your center option
   - **Scroll** down to *AWS Services*
   - Under *Compute* section **click** *EC2* (screenshot, explain side bar)
+  
   ![EC2](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select-ec2.png)
 4. **Click** the big blue `Launch Instance` button (explain all the available OS)
+
 ![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
 5. **Click** `My AMIs` (explain the image they are selecting, pre-installed software)
 6. **Select** `dlf_agalma` image

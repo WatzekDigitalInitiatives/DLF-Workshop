@@ -16,6 +16,7 @@ Password: Qwnmzxop9
 (when explaining dashboard check for N.Virginia)
 
 3. Selecting Service
+  - Make sure you are in the right region. Your navbar should look like: ![navbar](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/navbar.png) with N.Virginia
   - **Scroll** down to *AWS Services*
   - Under *Compute* section **click** *EC2* (screenshot, explain side bar)
 4. **Click** the big blue `Launch Instance` button (explain all the available OS)

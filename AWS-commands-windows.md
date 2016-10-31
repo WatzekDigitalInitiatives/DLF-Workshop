@@ -13,7 +13,6 @@
 User Name: DLFUser# (replace # with your respective number)
 Password: Qwnmzxop9
 ```
-(when explaining dashboard check for N.Virginia)
 
 3. Selecting Service
   - Make sure you are in the right region. Your top bar should look like:
@@ -22,17 +21,17 @@ Password: Qwnmzxop9
 
   with N.Virginia as your center option
   - **Scroll** down to *AWS Services*
-  - Under *Compute* section **click** *EC2* (screenshot, explain side bar)
+  - Under *Compute* section **click** *EC2*
 
   ![EC2](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select-ec2.png)
 
-4. **Click** the big blue `Launch Instance` button (explain all the available OS)
+4. **Click** the big blue `Launch Instance` button
 
 ![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
 
-5. **Click** `My AMIs` from the left pane(explain the image they are selecting, pre-installed software)
+5. **Click** `My AMIs` from the left pane
 
-<!-- select ami pic -->
+![Select AMI](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select_ami.png)
 
 6. **Select** `dlf_agalma` image
 
@@ -41,31 +40,31 @@ Password: Qwnmzxop9
 7. Configure Instance Details
   - **Select** `c3.2xlarge`
 
-<!-- c32x large picture  -->
+![Use c3.2xlarge](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/c32xlarge.png)
 
-  - **Click** `Next: Configure Instance Details`(explain different computer options, make them scroll through them)
+  - **Click** `Next: Configure Instance Details`
 
 8. Explain the Configure Instance Details page, explain spot, connect your s3 here
 
-9. **Click** `Next: Add Storage` (explain the page, 20 GB is enough)
+9. **Click** `Next: Add Storage`
 
 10. Tagging Instance:
   - **Click** `Next: Tag Instance`
   - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
   - **Click** `Next: Configure Security Group`
 
-  <!-- tag picture -->
+![Tag](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/tag.png)
 
 11. Selecting Security Group:
   - **Select** `Select an existing security group`
 
-  <!-- existing -->
+![User Existing SG](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select_existing_sg.png)
 
   - **Click** on `dlf-workshop-security-group`
 
-  <!-- workshop sg -->
+![Select dlf workshop SG](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/sg.png)
 
-  - **Click** `Review and Launch`(explain the page)
+  - **Click** `Review and Launch`
 
 
 12. Review page:
@@ -73,10 +72,10 @@ Password: Qwnmzxop9
   - In **Select a key Pair** select `dlf-workshop-key`
   - **Select** the check-box `I acknowledge that I have access to the...`
 
-  <!-- key picture  -->
+![Key](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/key.png)
 
   - **Click** `Launch Instances`
-  - **Scroll** down to `View Instances`
+  - **Click** `View Instances` (might have to scroll down a bit)
 
 ---
 

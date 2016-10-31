@@ -8,15 +8,19 @@
 
   Alternative URL: tinyurl.com/watzek-aws-console)
 
+  ---
+
 2. Login with the username and the password on your table. They should look like:
   ```
   User Name: DLFUser# (replace # with your respective number)
   Password: Qwnmzxop9
   ```
 
+  ---
+
 3. Selecting Service
   - Make sure you are in the right region. Your top bar should look like:
-  
+
   ![navbar](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/navbar.png)
 
   with N.Virginia as your center option

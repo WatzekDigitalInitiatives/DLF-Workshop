@@ -10,7 +10,7 @@
 
 2. Login with the username and the password on your table. They should look like:
 ```
-User Name: DLFUser#
+User Name: DLFUser# (replace # with your respective number)
 Password: Qwnmzxop9
 ```
 (when explaining dashboard check for N.Virginia)

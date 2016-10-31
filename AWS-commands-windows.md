@@ -4,9 +4,7 @@
 
 #### Make a virtual computer (EC2 Instance)
 
-1. Go to Watzek Digital Initiatives'
-
-<a href="https://watzekdi.signin.aws.amazon.com/console" target="_blank">AWS account</a>
+1. Go to Watzek Digital Initiatives' <a href="https://watzekdi.signin.aws.amazon.com/console" target="\_blank">AWS account</a>
 
 (tinyurl.com/watzek-aws-console)
 

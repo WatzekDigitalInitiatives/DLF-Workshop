@@ -16,9 +16,18 @@ Password: Qwnmzxop9
 (when explaining dashboard check for N.Virginia)
 
 3. Selecting Service
+  - Make sure you are in the right region. Your top bar should look like:
+  ![navbar](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/navbar.png)
+  with N.Virginia as your center option
   - **Scroll** down to *AWS Services*
   - Under *Compute* section **click** *EC2* (screenshot, explain side bar)
+
+  ![EC2](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select-ec2.png)
+
 4. **Click** the big blue `Launch Instance` button (explain all the available OS)
+
+![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
+
 5. **Click** `My AMIs` (explain the image they are selecting, pre-installed software)
 6. **Select** `dlf_agalma` image
 7. Configure Instance Details

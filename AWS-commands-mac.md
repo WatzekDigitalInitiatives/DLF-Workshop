@@ -28,7 +28,7 @@ Password: Qwnmzxop9
 
 ![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
 
-5. **Click** `My AMIs` (explain the image they are selecting, pre-installed software)
+5. **Click** `My AMIs` from the left panel(explain the image they are selecting, pre-installed software)
 6. **Select** `dlf_agalma` image
 7. Configure Instance Details
   - **Select** `c3.2xlarge`

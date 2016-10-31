@@ -16,9 +16,9 @@
 
 3. Selecting Service
   - Make sure you are in the right region. Your top bar should look like:
-  ```
+  
   ![navbar](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/navbar.png)
-  ```
+
   with N.Virginia as your center option
   - **Scroll** down to *AWS Services*
   - Under *Compute* section **click** *EC2*

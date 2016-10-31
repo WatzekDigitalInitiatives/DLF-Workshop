@@ -6,51 +6,93 @@
 
 1. Go to Watzek Digital Initiatives' <a href="https://watzekdi.signin.aws.amazon.com/console" target="\_blank">AWS account</a> **(NOTE: Open the link in a new tab)**
 
-(tinyurl.com/watzek-aws-console)
+  Alternative URL: tinyurl.com/watzek-aws-console)
+
+  ---
 
 2. Login with the username and the password on your table. They should look like:
-```
-User Name: DLFUser# (replace # with your respective number)
-Password: Qwnmzxop9
-```
-(when explaining dashboard check for N.Virginia)
+  ```
+  User Name: DLFUser# (replace # with your respective number)
+  Password: Qwnmzxop9
+  ```
+
+  ---
 
 3. Selecting Service
   - Make sure you are in the right region. Your top bar should look like:
 
   ![navbar](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/navbar.png)
-  
+
   with N.Virginia as your center option
   - **Scroll** down to *AWS Services*
-  - Under *Compute* section **click** *EC2* (screenshot, explain side bar)
+  - Under *Compute* section **click** *EC2*
 
   ![EC2](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select-ec2.png)
 
-4. **Click** the big blue `Launch Instance` button (explain all the available OS)
+  ---
 
-![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
+4. **Click** the big blue `Launch Instance` button
 
-5. **Click** `My AMIs` from the left pane(explain the image they are selecting, pre-installed software)
+  ![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
+
+  ---
+
+5. **Click** `My AMIs` from the left pane
+
+  ![Select AMI](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select_ami.png)
+
+  ---
+
 6. **Select** `dlf_agalma` image
+
+  <!-- slect agalma image -->
+
+  ---
+
 7. Configure Instance Details
   - **Select** `c3.2xlarge`
-  - **Click** `Next: Configure Instance Details`(explain different computer options, make them scroll through them)
-8. Explain the Configure Instance Details page, explain spot, connect your s3 here
-9. **Click** `Next: Add Storage` (explain the page, 20 GB is enough)
-10. Tagging Instance:
+
+  ![Use c3.2xlarge](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/c32xlarge.png)
+
+  - **Click** `Next: Configure Instance Details`
+
+  ---
+
+8. **Click** `Next: Add Storage`
+
+  ---
+
+9. Tagging Instance:
   - **Click** `Next: Tag Instance`
-  - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`
+  - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
   - **Click** `Next: Configure Security Group`
-11. Selecting Security Group:
+
+  ![Tag](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/tag.png)
+
+  ---
+
+10. Selecting Security Group:
   - **Select** `Select an existing security group`
+
+  ![User Existing SG](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select_existing_sg.png)
+
   - **Click** on `dlf-workshop-security-group`
-  - **Click** `Review and Launch`(explain the page)
-12. Review page:
+
+  ![Select dlf workshop SG](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/sg.png)
+
+  - **Click** `Review and Launch`
+
+  ---
+
+11. Review page:
   - **Click** `Launch`
   - In **Select a key Pair** select `dlf-workshop-key`
   - **Select** the check-box `I acknowledge that I have access to the...`
+
+  ![Key](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/key.png)
+
   - **Click** `Launch Instances`
-  - **Scroll** down to `View Instances`
+  - **Click** `View Instances` (might have to scroll down a bit)
 
 ---
 

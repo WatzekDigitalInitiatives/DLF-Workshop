@@ -58,15 +58,11 @@
 
   ---
 
-8. Explain the Configure Instance Details page, explain spot, connect your s3 here
+8. **Click** `Next: Add Storage`
 
   ---
 
-9. **Click** `Next: Add Storage`
-
-  ---
-
-10. Tagging Instance:
+9. Tagging Instance:
   - **Click** `Next: Tag Instance`
   - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
   - **Click** `Next: Configure Security Group`
@@ -75,7 +71,7 @@
 
   ---
 
-11. Selecting Security Group:
+10. Selecting Security Group:
   - **Select** `Select an existing security group`
 
   ![User Existing SG](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select_existing_sg.png)
@@ -88,7 +84,7 @@
 
   ---
 
-12. Review page:
+11. Review page:
   - **Click** `Launch`
   - In **Select a key Pair** select `dlf-workshop-key`
   - **Select** the check-box `I acknowledge that I have access to the...`

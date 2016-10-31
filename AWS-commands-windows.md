@@ -29,17 +29,25 @@
 
   ![EC2](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select-ec2.png)
 
+  ---
+
 4. **Click** the big blue `Launch Instance` button
 
   ![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
+
+  ---
 
 5. **Click** `My AMIs` from the left pane
 
   ![Select AMI](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/select_ami.png)
 
+  ---
+
 6. **Select** `dlf_agalma` image
 
   <!-- slect agalma image -->
+
+  ---
 
 7. Configure Instance Details
   - **Select** `c3.2xlarge`
@@ -48,9 +56,15 @@
 
   - **Click** `Next: Configure Instance Details`
 
+  ---
+
 8. Explain the Configure Instance Details page, explain spot, connect your s3 here
 
+  ---
+
 9. **Click** `Next: Add Storage`
+
+  ---
 
 10. Tagging Instance:
   - **Click** `Next: Tag Instance`
@@ -58,6 +72,8 @@
   - **Click** `Next: Configure Security Group`
 
   ![Tag](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/tag.png)
+
+  ---
 
 11. Selecting Security Group:
   - **Select** `Select an existing security group`
@@ -70,6 +86,7 @@
 
   - **Click** `Review and Launch`
 
+  ---
 
 12. Review page:
   - **Click** `Launch`

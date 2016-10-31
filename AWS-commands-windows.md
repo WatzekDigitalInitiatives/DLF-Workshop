@@ -31,24 +31,50 @@ Password: Qwnmzxop9
 ![Launch](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/launch_instance.png)
 
 5. **Click** `My AMIs` from the left pane(explain the image they are selecting, pre-installed software)
+
+<!-- select ami pic -->
+
 6. **Select** `dlf_agalma` image
+
+<!-- slect agalma image -->
+
 7. Configure Instance Details
   - **Select** `c3.2xlarge`
+
+<!-- c32x large picture  -->
+
   - **Click** `Next: Configure Instance Details`(explain different computer options, make them scroll through them)
+
 8. Explain the Configure Instance Details page, explain spot, connect your s3 here
+
 9. **Click** `Next: Add Storage` (explain the page, 20 GB is enough)
+
 10. Tagging Instance:
   - **Click** `Next: Tag Instance`
-  - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`
+  - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
   - **Click** `Next: Configure Security Group`
+
+  <!-- tag picture -->
+
 11. Selecting Security Group:
   - **Select** `Select an existing security group`
+
+  <!-- existing -->
+
   - **Click** on `dlf-workshop-security-group`
+
+  <!-- workshop sg -->
+
   - **Click** `Review and Launch`(explain the page)
+
+
 12. Review page:
   - **Click** `Launch`
   - In **Select a key Pair** select `dlf-workshop-key`
   - **Select** the check-box `I acknowledge that I have access to the...`
+
+  <!-- key picture  -->
+
   - **Click** `Launch Instances`
   - **Scroll** down to `View Instances`
 

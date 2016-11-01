@@ -108,14 +108,16 @@
 1. Open spotlight by typing `cmd + space`
 2. Type `terminal` and hit **return** key to open it
 3. Change directory to Downloads folder by typing `cd Downloads` followed by a **return** on the terminal window
-4. Give permission to your key to access your EC2-Instance by typing `chmod 400 dlf-workshop-key.pem` followed by a **return** on the terminal window
-5. Go to terminal and access your EC2-Instance by typing `ssh -i dlf-workshop-key.pem ubuntu@` **Do not hit return yet**
-6. Go back to your Amazon Console and select the row with your name and scroll right to Public IP (should have to scroll right and would be around 9th column)
-7. **Copy** the `Public IP (xx.xx.xx.xx)` number under *Public IP* column of your row
-  - Paste it at the end of the command you just typed
-  - You command should look like: `ssh -i dlf-workshop-key.pem ubuntu@xx.xx.xx.xx`
-  - Hit **return** to connect
-  - If it prompts you `Are you sure you want to continue connecting (yes/no)?` type `yes` and hit **return**
-  - You should now be connected to your EC2-Instance
+4. Give permission to your key to access your EC2-Instance by **typing** `chmod 400 dlf-workshop-key.pem` followed by a **return** on the terminal window
+6. The next command to access your cloud computer is in two parts:
+  1. **Type** `ssh -i dlf-workshop-key.pem ubuntu@` in your terminal window and **do not hit return yet**
+  2. Go back to your Amazon Console and select the row with your name and scroll right till you see Public IP column (might have to scroll right and should be around 9th column)
+    - **Copy** the `xx.xx.xx.xx` number under *Public IP* column of your row
+    - Paste it at the end of the command you just typed
+    - You command should look like: `ssh -i dlf-workshop-key.pem ubuntu@xx.xx.xx.xx`
+    - Hit **return** to connect
+    - If it prompts you `Are you sure you want to continue connecting (yes/no)?` type `yes` and hit **return**
+
+You should now be connected to your EC2-Instance!
 
 #### Now go to [Agalma Commands page](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/Aglama-commands.md)

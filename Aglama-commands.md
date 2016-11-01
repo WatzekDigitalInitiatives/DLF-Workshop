@@ -9,30 +9,6 @@ cd scratch
 
 ## Phylogenetic Pipeline
 
-**Genetree**
-
-```
-agalma genetree --id DLF_Phylogeny
-```
-
-**Treeprune**
-
-```
-agalma treeprune --id DLF_Phylogeny
-```
-
-**Multalign**
-
-```
-agalma multalign --id DLF_Phylogeny
-```
-
-**Supermatrix**
-
-```
-agalma supermatrix --id DLF_Phylogeny
-```
-
 **Speciestree**
 
 ```

@@ -98,13 +98,13 @@
 
 #### Download Key
 
-1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="_blank">here</a> (tinyurl.com/dlf-ec2-key)
+1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="\_blank">here</a> (tinyurl.com/dlf-ec2-key)
 
 ---
 
 #### Download mobaXterm (tool to access command line)
 
-1. Download mobaXterm from <a href="http://tinyurl.com/dlf-mobaxterm" target="_blank">here</a> (tinyurl.com/dlf-mobaxterm)
+1. Download mobaXterm from <a href="http://tinyurl.com/dlf-mobaxterm" target="\_blank">here</a> (tinyurl.com/dlf-mobaxterm)
 
 ---
 

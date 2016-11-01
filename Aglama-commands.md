@@ -64,10 +64,12 @@ exit
 - Go to Amazon Console and copy your Public IP like we did before (select your row and copy the number under Public IP column)
 - Paste it at the end of your command you just typed:
 - Copy the following and add it at the end of the IP address you just pasted
+
   ```
   :~/agalma/reports/DLF_Phylogeny ~/Desktop/
   ```
 - Your final command should look like this with `xx.xx.xx.xx` replaced by your IP address:
+
   ```
   scp -rp -i dlf-workshop-key.pem ubuntu@xx.xx.xx.xx:~/agalma/reports/DLF_Phylogeny ~/Desktop/
   ```

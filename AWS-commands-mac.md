@@ -98,7 +98,7 @@
 
 #### Download Key
 
-1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="_blank">here</a> (tinyurl.com/dlf-ec2-key)
+1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="\_blank">here</a> (tinyurl.com/dlf-ec2-key)
   - Note: Don't change the download destination, make sure it is in your `Downloads` folder
 
 ---

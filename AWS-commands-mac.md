@@ -109,10 +109,11 @@
 2. Type `terminal` and hit **return** key to open it
 3. Change directory to Downloads folder by typing `cd Downloads` followed by a **return** on the terminal window
 4. Give permission to your key to access your EC2-Instance by typing `chmod 400 dlf-workshop-key.pem` followed by a **return** on the terminal window
-4. **Copy** the `Public IP (xx.xx.xxx.xxx)` number under *Public IP* column of your row (might have to scroll right to see it)
-5. Go to terminal and access your EC2-Instance by typing `ssh -i dlf-workshop-key.pem ubuntu@xx.xx.xxx.xxx.`
-  - Replace the `xx.xx.xxx.xxx` with your Public IP (use `cmd+v` to paste it)
-  - Hit a **return** to connect
+5. Go to terminal and access your EC2-Instance by typing `ssh -i dlf-workshop-key.pem ubuntu@` **DO NOT HIT RETURN YET**
+6. Go back to your Amazon Console and select the row with your name and scroll right to Public IP (should have to scroll right and would be around 9th column)
+7. **Copy** the `Public IP (xx.xx.xxx.xxx)` number under *Public IP* column of your row
+  - Paste it at the end of the command you just typed
+  - Hit **return** to connect
   - If it prompts you `Are you sure you want to continue connecting (yes/no)?` type `yes` and hit **return**
   - You should now be connected to your EC2-Instance
 

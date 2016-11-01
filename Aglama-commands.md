@@ -5,7 +5,6 @@ ls
 cd agalma
 ls
 cd scratch
-ls
 ```
 
 ## Phylogenetic Pipeline
@@ -58,13 +57,20 @@ exit
 ## Download reports
 
 **For Mac:**
-- Replace `xx.xx.xxx.xxx` with your public IP address from AWS console
-- On terminal you will see `myAccount@myComputerName:~$` and your computer name is `myComputerName`
-- Replace `yourComputerName` with your own computer name.
-- Run the following command with proper replacement for PublicIP and Computer Name
-```
-scp -rp -i dlf-workshop-key.pem ubuntu@xx.xx.xxx.xxx:/agalma/reports/DLF_Phylogeny /Users/yourComputerName/Desktop/
-```
+1. Copy the following command on your terminal:  **Note: Do not hit return yet**
+  ```
+  scp -rp -i dlf-workshop-key.pem ubuntu@
+  ```
+- Go to Amazon Console and copy your Public IP like we did before (select your row and copy the number under Public IP column)
+- Paste it at the end of your command you just typed:
+- Copy the following and add it at the end of the IP address you just pasted
+  ```
+  :~/agalma/reports/DLF_Phylogeny ~/Desktop/
+  ```
+- Your final command should look like this with `xx.xx.xx.xx` replaced by your IP address:
+  ```
+  scp -rp -i dlf-workshop-key.pem ubuntu@xx.xx.xx.xx:~/agalma/reports/DLF_Phylogeny ~/Desktop/
+  ```
 
 **For Windows**
 - On the side bar of the mobaXterm double click on `agalma`

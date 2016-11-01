@@ -34,13 +34,13 @@ exit
 
 **For Mac:**
 
-1. Copy the following command on your terminal:  **Note: Do not hit return yet**
+1. **Copy** and **paste** the following command on your terminal:  **Note: Do not hit return yet**
   ```
   scp -rp -i dlf-workshop-key.pem ubuntu@
   ```
-2. Go to Amazon Console and copy your Public IP like we did before (select your row and copy the number under Public IP column)
-3. Paste it at the end of your command you just typed. **Note: Do not hit return yet**
-4. Copy the following and add it at the end of the IP address you just pasted
+2. Go to Amazon Console and **copy** your Public IP like we did before (select your row and copy the number under Public IP column)
+3. **Paste** it at the end of your command you just typed. **Note: Do not hit return yet**
+4. **Copy** the following and **paste** it at the end of the IP address you just pasted
 
   ```
   :~/agalma/reports/DLF_Phylogeny ~/Desktop/
@@ -54,9 +54,9 @@ exit
 
 **For Windows:**
 
-1. On the side bar of the mobaXterm double click on `agalma`
-2. Navigate to `reports` folder
-3. Drag and drop `DLF_Phylogeny` folder on your Desktop
+1. On the side bar of the mobaXterm **double click** on `agalma`
+2. **Double click** on `reports` folder
+3. **Drag and drop** `DLF_Phylogeny` folder on your Desktop
 
 ## Open reports
 

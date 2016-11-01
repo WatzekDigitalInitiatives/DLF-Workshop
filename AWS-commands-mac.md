@@ -111,7 +111,7 @@
 4. Give permission to your key to access your EC2-Instance by **typing** `chmod 400 dlf-workshop-key.pem` followed by a **return** on the terminal window
 6. The next command to access your cloud computer is in two parts:
   1. **Type** `ssh -i dlf-workshop-key.pem ubuntu@` in your terminal window and **do not hit return yet**
-  2. Go back to your Amazon Console and select the row with your name and scroll right till you see Public IP column (might have to scroll right and should be around 9th column)
+  2. Go back to your Amazon Console and **select** the row with your name and scroll right till you see Public IP column (might have to scroll right and should be around 9th column)
     - **Copy** the `xx.xx.xx.xx` number under *Public IP* column of your row
     - Paste it at the end of the command you just typed
     - You command should look like: `ssh -i dlf-workshop-key.pem ubuntu@xx.xx.xx.xx`

@@ -113,7 +113,7 @@
   1. **Type** `ssh -i dlf-workshop-key.pem ubuntu@` in your terminal window and **do not hit return yet**
   2. Go back to your Amazon Console and **select** the row with your name and scroll right till you see Public IP column (might have to scroll right and should be around 9th column)
     - **Copy** the `xx.xx.xx.xx` number under *Public IP* column of your row
-    - Paste it at the end of the command you just typed
+    - **Paste** it at the end of the command you just typed
     - You command should look like: `ssh -i dlf-workshop-key.pem ubuntu@xx.xx.xx.xx`
     - Hit **return** to connect
     - If it prompts you `Are you sure you want to continue connecting (yes/no)?` type `yes` and hit **return**

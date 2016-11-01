@@ -53,6 +53,7 @@ exit
 6. **Hit** return now to download the reports
 
 **For Windows:**
+
 1. On the side bar of the mobaXterm double click on `agalma`
 2. Navigate to `reports` folder
 3. Drag and drop `DLF_Phylogeny` folder on your Desktop

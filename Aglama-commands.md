@@ -35,6 +35,7 @@ exit
 **For Mac:**
 
 1. **Copy** and **paste** the following command on your terminal:  **Note: Do not hit return yet**
+
   ```
   scp -rp -i dlf-workshop-key.pem ubuntu@
   ```

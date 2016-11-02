@@ -98,7 +98,7 @@
 
 #### Download Key
 
-1. To download the key, right click on the *DLF Key* link and click `Save link as...` or `Download Link Target` or `Download Linked File As` 
+1. To download the key, right click on the *DLF Key* link and click `Save link as (Chrome)` or `Download Link Target (Firefox)` or `Download Linked File As (Safari)` 
 2. And save the file in your **downloads** folder
 
   <a href="http://tinyurl.com/dlf-ec2-key" target="\_blank">DLF Key</a> (tinyurl.com/dlf-ec2-key)

@@ -1,4 +1,4 @@
-## Login to AWS Console
+## Making a cloud computer on Amazon Web Services
 
 ---
 

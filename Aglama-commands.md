@@ -51,7 +51,7 @@ agalma phylogeny_report --id DLF_Phylogeny --outdir reports/DLF_Phylogeny
 
 **For Windows:**
 
-1. On the side bar of the mobaXterm **double click** on `agalma`
+1. On the side bar of the mobaXterm **double click** on `agalma` folder
 2. **Double click** on `reports` folder
 3. **Drag and drop** `DLF_Phylogeny` folder on your Desktop
 

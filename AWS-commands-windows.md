@@ -2,6 +2,12 @@
 
 ---
 
+#### Download mobaXterm (tool to access command line)
+
+1. Download mobaXterm from <a href="http://tinyurl.com/dlf-mobaxterm" target="\_blank">here</a> (tinyurl.com/dlf-mobaxterm)
+
+---
+
 #### Make a cloud computer (EC2 Instance)
 
 1. Go to Watzek Digital Initiatives' <a href="https://watzekdi.signin.aws.amazon.com/console" target="\_blank">AWS account</a> **(NOTE: Open the link in a new tab)**
@@ -99,12 +105,6 @@
 #### Download Key
 
 1. Download the key from <a href="http://tinyurl.com/dlf-ec2-key" target="\_blank">here</a> (tinyurl.com/dlf-ec2-key)
-
----
-
-#### Download mobaXterm (tool to access command line)
-
-1. Download mobaXterm from <a href="http://tinyurl.com/dlf-mobaxterm" target="\_blank">here</a> (tinyurl.com/dlf-mobaxterm)
 
 ---
 

@@ -2,11 +2,11 @@
 
 ---
 
-#### Make a virtual computer (EC2 Instance)
+#### Make a cloud computer (EC2 Instance)
 
 1. Go to Watzek Digital Initiatives' <a href="https://watzekdi.signin.aws.amazon.com/console" target="\_blank">AWS account</a> **(NOTE: Open the link in a new tab)**
 
-  Alternative URL: tinyurl.com/watzek-aws-console)
+  Alternative URL: (tinyurl.com/watzek-aws-console)
 
   ---
 
@@ -64,7 +64,7 @@
 
 9. Tagging Instance:
   - **Click** `Next: Tag Instance`
-  - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
+  - **Name** your cloud computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
   - **Click** `Next: Configure Security Group`
 
   ![Tag](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/tag.png)
@@ -108,7 +108,7 @@
 
 ---
 
-#### Access your virtual computer
+#### Access your cloud computer
 
 1. Run mobaXterm (software you downloaded earlier) and **click** `New session`
 2. **Click** on your name from the list on AWS

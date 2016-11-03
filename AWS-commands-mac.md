@@ -2,11 +2,11 @@
 
 ---
 
-#### Make a virtual computer (EC2 Instance)
+#### Make a cloud computer (EC2 Instance)
 
 1. Go to Watzek Digital Initiatives' <a href="https://watzekdi.signin.aws.amazon.com/console" target="\_blank">AWS account</a> **(NOTE: Open the link in a new tab)**
 
-  Alternative URL: tinyurl.com/watzek-aws-console)
+  Alternative URL: (tinyurl.com/watzek-aws-console)
 
   ---
 
@@ -64,7 +64,7 @@
 
 9. Tagging Instance:
   - **Click** `Next: Tag Instance`
-  - **Name** your virtual computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
+  - **Name** your cloud computer here! Use your `lastname_firstname` for exmaple `Doe_Jane`  
   - **Click** `Next: Configure Security Group`
 
   ![Tag](https://github.com/WatzekDigitalInitiatives/DLF-Workshop/blob/master/images/tag.png)
@@ -98,7 +98,7 @@
 
 #### Download Key
 
-1. To download the key, right click on the *DLF Key* link and click `Save link as (Chrome)` or `Download Link Target (Firefox)` or `Download Linked File As (Safari)` 
+1. To download the key, right click on the *DLF Key* link and click `Save link as (Chrome)` or `Download Link Target (Firefox)` or `Download Linked File As (Safari)`
 2. And save the file in your **downloads** folder
 
   <a href="http://tinyurl.com/dlf-ec2-key" target="\_blank">DLF Key</a> (tinyurl.com/dlf-ec2-key)
@@ -108,7 +108,7 @@
 
 ---
 
-#### Access your virtual computer
+#### Access your cloud computer
 
 1. Open spotlight by typing `cmd + space`
 2. Type `terminal` and hit **return** key to open it

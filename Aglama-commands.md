@@ -28,7 +28,7 @@ agalma phylogeny_report --id DLF_Phylogeny --outdir reports/DLF_Phylogeny
 
 **For Mac:**
 
-1. Exit the cloud computer by typing `exit`
+1. Exit the cloud computer by **typing** `exit`
 
 2. **Copy** and **paste** the following command on your terminal:  **Note: Do not hit return yet**
 

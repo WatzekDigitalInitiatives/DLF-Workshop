@@ -43,7 +43,7 @@
 
   ---
 
-6. **Select** `dlf_agalma` image
+6. **Select** `dlf_agalma_7.0` image
 
   <!-- slect agalma image -->
 
